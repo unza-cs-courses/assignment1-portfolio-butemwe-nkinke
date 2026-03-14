@@ -179,3 +179,9 @@ img {
     .projects__grid { grid-template-columns: repeat(3, 1fr); }
     .hero h1 { font-size: 4rem; }
 }
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px; /* Widens the layout slightly for large screens */
+    }
+    .hero h1 { font-size: 4rem; }
+}
